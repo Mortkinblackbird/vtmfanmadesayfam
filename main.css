@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html {
+    font-family: "Open Sans", sans-serif;
+  }
+
+#header {
+    width: 100%;
+    height: 25vh;
+    background: #333;
+    position: relative;
+}
+
+.baslik1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 3px;
+    margin-right: -3px; 
+    font-weight: 100;
+}
+
+
+
+.navbar {
+    width: 100%;
+    background: rgb(216, 13, 13);
+    color: #333;
+    font-size: 1em;
+    font-weight: 100;
+    height: 4rem;
+    line-height: 4rem;
+    list-style-type: none;
+}
+
+.navbar-container {
+    width: 100%;
+    max-width: 120rem;
+
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style:none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 0 1.5rem;
+}
+
+.navbar ul li:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+
+section {
+    width: 100%;
+    height: 35rem;
+    position: relative;
+    background-color: #cccccc;
+}
+
+footer{
+    position: relative;
+    height: 10rem;
+    background-color: #333;
+}
+
+h3 {
+    padding-top: 0.6rem;
+    border-top: 3px dashed rgb(0, 0, 0);
+    border-radius: 25px;
+    border-bottom: 3px dashed rgb(0, 0, 0);
+    padding-bottom: 0.6rem;
+    text-align: center;
+}
+
+.resim1 {
+    float: left;
+    margin: 1rem;
+}
+
+.pgazete {
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
